@@ -25,4 +25,4 @@ T.get('search/tweets', params, (err, data, response) => {
         }
     })
 }
-setInterval(retweet, 3600000);
+setInterval(retweet, 60000);
