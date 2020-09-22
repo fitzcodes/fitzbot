@@ -6,7 +6,7 @@ function retweet() {
     let params = {
     q: '#100daysofcode',
     result_type: 'recent',
-    count: 100
+    count: 10
 }
 
 T.get('search/tweets', params, (err, data, response) => {
