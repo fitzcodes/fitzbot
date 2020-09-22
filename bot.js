@@ -6,7 +6,7 @@ function retweet() {
     let params = {
     q: '#100daysofcode',
     result_type: 'recent',
-    count: 10
+    count: 100
 }
 
 T.get('search/tweets', params, (err, data, response) => {
@@ -25,4 +25,4 @@ T.get('search/tweets', params, (err, data, response) => {
         }
     })
 }
-setInterval(retweet, 15000);
+setInterval(retweet, 3600000);
