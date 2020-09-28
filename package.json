@@ -1,7 +1,7 @@
 {
   "name": "fitzbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "fitzbot\r Simple Retweet bot for twitter\r Created for purposes of beginner stages of learning how to use API's.",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,13 @@
     "-": "0.0.1",
     "save": "^2.4.0",
     "twit": "^2.2.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fitzwebdev/fitzbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fitzwebdev/fitzbot/issues"
+  },
+  "homepage": "https://github.com/fitzwebdev/fitzbot#readme"
 }
